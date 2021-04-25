@@ -1,0 +1,25 @@
+{
+    "root": "/home/onoderat/Dropbox/nonlinear_NN_data",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/mcmahon-lab/nonlinear_NN_data.git",
+        "commit": "2d562a65263bb8c91c4961a7f8d31cadd9ed1843"
+    },
+    "email": "onoderat@stanford.edu",
+    "startedAt": "2020-09-01T18:35:19.561669",
+    "host": "qbrain",
+    "username": "onoderat",
+    "executable": "/usr/local/anaconda/envs/NN_v2/bin/python",
+    "os": "Linux-4.15.0-88-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.4",
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 4,
+    "cpu_count": 112,
+    "args": [],
+    "state": "finished",
+    "jobType": null,
+    "mode": "run",
+    "project": "runs-from-for-loop",
+    "heartbeatAt": "2020-09-01T18:35:21.360794",
+    "exitcode": 0
+}

@@ -1,0 +1,29 @@
+2020-09-01 14:35:38,328 DEBUG   MainThread:88868 [wandb_config.py:_load_defaults():154] no defaults not found in config-defaults.yaml
+2020-09-01 14:35:38,464 DEBUG   MainThread:88868 [meta.py:_setup_code_git():49] probe for git information
+2020-09-01 14:35:38,498 DEBUG   MainThread:88868 [run_manager.py:__init__():547] Initialized sync for runs-from-for-loop/pd98ebem
+2020-09-01 14:35:38,504 INFO    MainThread:88868 [run_manager.py:wrap_existing_process():1149] wrapping existing process 88374
+2020-09-01 14:35:38,504 WARNING MainThread:88868 [io_wrap.py:register():108] SIGWINCH handler was not None: <Handlers.SIG_DFL: 0>
+2020-09-01 14:35:38,600 INFO    MainThread:88868 [run_manager.py:init_run():928] system metrics and metadata threads started
+2020-09-01 14:35:38,601 INFO    MainThread:88868 [run_manager.py:init_run():967] upserting run before process can begin, waiting at most 10 seconds
+2020-09-01 14:35:38,762 INFO    Thread-15 :88868 [run_manager.py:_upsert_run():1056] saving pip packages
+2020-09-01 14:35:38,764 INFO    Thread-15 :88868 [run_manager.py:_upsert_run():1058] initializing streaming files api
+2020-09-01 14:35:38,765 INFO    Thread-15 :88868 [run_manager.py:_upsert_run():1065] unblocking file change observer, beginning sync with W&B servers
+2020-09-01 14:35:38,765 INFO    MainThread:88868 [run_manager.py:wrap_existing_process():1166] informing user process we are ready to proceed
+2020-09-01 14:35:38,774 INFO    MainThread:88868 [run_manager.py:_sync_etc():1298] entering loop for messages from user process
+2020-09-01 14:35:38,818 INFO    MainThread:88868 [run_manager.py:_sync_etc():1321] received message from user process: {"exitcode": 0}
+2020-09-01 14:35:38,819 INFO    MainThread:88868 [run_manager.py:_sync_etc():1408] closing log streams and sending exitcode to W&B
+2020-09-01 14:35:38,820 INFO    MainThread:88868 [run_manager.py:shutdown():1072] shutting down system stats and metadata service
+2020-09-01 14:35:39,462 INFO    Thread-4  :88868 [run_manager.py:_on_file_modified():692] file/dir modified: /home/onoderat/Dropbox/nonlinear_NN_data/2020-08-13 NAS for PNN/experiment v2/ana_lib/wandb/run-20200901_143537-pd98ebem/wandb-history.jsonl
+2020-09-01 14:35:39,463 INFO    Thread-4  :88868 [run_manager.py:_on_file_created():681] file/dir created: /home/onoderat/Dropbox/nonlinear_NN_data/2020-08-13 NAS for PNN/experiment v2/ana_lib/wandb/run-20200901_143537-pd98ebem/wandb-summary.json
+2020-09-01 14:35:39,467 INFO    Thread-4  :88868 [run_manager.py:_on_file_created():681] file/dir created: /home/onoderat/Dropbox/nonlinear_NN_data/2020-08-13 NAS for PNN/experiment v2/ana_lib/wandb/run-20200901_143537-pd98ebem/requirements.txt
+2020-09-01 14:35:39,468 INFO    Thread-4  :88868 [run_manager.py:_on_file_created():681] file/dir created: /home/onoderat/Dropbox/nonlinear_NN_data/2020-08-13 NAS for PNN/experiment v2/ana_lib/wandb/run-20200901_143537-pd98ebem/output.log
+2020-09-01 14:35:39,469 INFO    Thread-4  :88868 [run_manager.py:_on_file_created():681] file/dir created: /home/onoderat/Dropbox/nonlinear_NN_data/2020-08-13 NAS for PNN/experiment v2/ana_lib/wandb/run-20200901_143537-pd98ebem/wandb-events.jsonl
+2020-09-01 14:35:39,470 INFO    Thread-4  :88868 [run_manager.py:_on_file_created():681] file/dir created: /home/onoderat/Dropbox/nonlinear_NN_data/2020-08-13 NAS for PNN/experiment v2/ana_lib/wandb/run-20200901_143537-pd98ebem/wandb-metadata.json
+2020-09-01 14:35:39,602 INFO    MainThread:88868 [run_manager.py:shutdown():1086] stopping streaming files and file change observer
+2020-09-01 14:35:40,459 INFO    Thread-4  :88868 [run_manager.py:_on_file_modified():692] file/dir modified: /home/onoderat/Dropbox/nonlinear_NN_data/2020-08-13 NAS for PNN/experiment v2/ana_lib/wandb/run-20200901_143537-pd98ebem/wandb-metadata.json
+2020-09-01 14:35:42,789 INFO    MainThread:88868 [run_manager.py:_sync_etc():1427] rendering summary
+2020-09-01 14:35:42,791 INFO    MainThread:88868 [run_manager.py:_sync_etc():1459] syncing files to cloud storage
+2020-09-01 14:35:43,295 INFO    MainThread:88868 [run_manager.py:_sync_etc():1468] syncing complete: https://app.wandb.ai/onoderat/runs-from-for-loop/runs/pd98ebem
+m:run_manager.py:_sync_etc():1427] rendering summary
+2020-09-01 14:35:42,791 INFO    MainThread:88868 [pd98ebem:run_manager.py:_sync_etc():1459] syncing files to cloud storage
+2020-09-01 14:35:43,295 INFO    MainThread:88868 [pd98ebem:run_manager.py:_sync_etc():1468] syncing complete: https://app.wandb.ai/onoderat/runs-from-for-loop/runs/pd98ebem

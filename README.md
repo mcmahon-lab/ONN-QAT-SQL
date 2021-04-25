@@ -4,6 +4,8 @@ This repository contains the scripts for training neural networks executed on th
 
 Author *et al.* (2021). An optical neural network using less than 1 photon per multiplication. *Journal Title, Volume* (Issue), page range. DOI
 
+The device control scripts for experimental implementation are available [here](https://github.com/mcmahon-lab/ONN-device-control).
+
 ## [main_mnist_mlp_QAT.py](https://github.com/mcmahon-lab/ONN-QAT-SQL/blob/master/main_mnist_mlp_QAT.py)
 
 The minimalist Python script for training fully-connected neural networks with quantization-aware training (QAT), requiring only PyTorch (>=1.7.0) and torchvision (>=0.8.1) to run
@@ -29,6 +31,6 @@ Helper functions for parallelizing functions (e.g., neural network training func
 
 The code in this repository is released under the following license:
 
-[Creative Commons Attribution 4.0 International]()
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 A copy of this license is given in this repository as license.txt.

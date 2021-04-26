@@ -16,7 +16,7 @@ Helper functions for parallelizing functions (e.g., neural network training func
 
 ## [conda_env_spec.txt](https://github.com/mcmahon-lab/ONN-QAT-SQL/blob/master/conda_env_spec.txt)
 
-Environment setup information.
+Anacoda environment setup information.
 
 ## [main_mnist_mlp_QAT.py](https://github.com/mcmahon-lab/ONN-QAT-SQL/blob/master/main_mnist_mlp_QAT.py)
 

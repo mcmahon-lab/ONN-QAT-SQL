@@ -10,9 +10,9 @@ To improve the robustness of the **optical neural networks (ONNs)** to shot nois
 
 Besides the neural network training scripts, this repository also includes scripts for simulating neural network performance under the [**standard quantum limit (SQL)**](https://en.wikipedia.org/wiki/Quantum_limit). 
 
-## [RA_4bit_H2_100_100_lr_0.043_0.50_m_0.87_wep_6_randActDigi_v80_ep97.pt](https://github.com/mcmahon-lab/ONN-QAT-SQL/blob/master/RA_4bit_H2_100_100_lr_0.043_0.50_m_0.87_wep_6_randActDigi_v80_ep97.pt)
+## [ana_lib](https://github.com/mcmahon-lab/ONN-QAT-SQL/tree/master/ana_lib)
 
-A trained neural network model with 3 hidden layers trained with QAT. It was the one finally executed on the experimental setup of 2D-block optical matrix-vector multiplier.
+Helper functions for parallelizing functions (e.g., neural network training functions) on GPUs.
 
 ## [conda_env_spec.txt](https://github.com/mcmahon-lab/ONN-QAT-SQL/blob/master/conda_env_spec.txt)
 
@@ -31,9 +31,9 @@ The notebook requires additional packages: Ray (1.0.0), Optuna (1.5.0), wandb (0
 
 A Jupyter notebook that tests the accuracy of trained neural networks with simulated photon shot noise under varying photon budgets (i.e., photons per multiplication).
 
-## [ana_lib](https://github.com/mcmahon-lab/ONN-QAT-SQL/tree/master/ana_lib)
+## [trained_model_4bit_H2_100_100.pt](https://github.com/mcmahon-lab/ONN-QAT-SQL/blob/master/trained_model_4bit_H2_100_100.pt)
 
-Helper functions for parallelizing functions (e.g., neural network training functions) on GPUs.
+A trained neural network model with 3 hidden layers trained with QAT. It was the one finally executed on the experimental setup of 2D-block optical matrix-vector multiplier.
 
 # License
 

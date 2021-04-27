@@ -1,14 +1,12 @@
 # Optical Neural Networks with Quantization-Aware Training (QAT)
 
-This repository contains the trained model and trianing scripts for the neural network executed on the optical matrix-vector multiplier demonstrated in the following paper: 
+This repository contains the trained model and training scripts for the neural network executed on the optical matrix-vector multiplier demonstrated in the following paper:
 
-Author *et al.* (2021). An optical neural network using less than 1 photon per multiplication. *Journal Title, Volume* (Issue), page range. DOI
+Tianyu Wang, Shi-Yuan Ma, Logan G. Wright, Tatsuhiro Onodera, Brian Richard and Peter L. McMahon (2021). An optical neural network using less than 1 photon per multiplication. *Manuscript in preparation*.
 
 The device control scripts for experimental implementation are available [here](https://github.com/mcmahon-lab/ONN-device-control).
 
-To improve the robustness of the **optical neural networks (ONNs)** to shot noise, we employed [**quantization-aware training (QAT)**](https://doi.org/10.1109/CVPR.2018.00286), which quantizes the activations and weights of neurons, and allows classification with moderate numerical precision.
-
-Besides the neural network training scripts, this repository also includes scripts for simulating neural network performance under the [**standard quantum limit (SQL)**](https://en.wikipedia.org/wiki/Quantum_limit). 
+To improve the robustness of the **optical neural networks (ONNs)** to shot noise, we employed [**quantization-aware training (QAT)**](https://doi.org/10.1109/CVPR.2018.00286), which quantizes the activations and weights of neurons, and allows classification with moderate numerical precision. Besides the neural network training scripts, this repository also includes scripts for simulating neural network performance under the [**standard quantum limit (SQL)**](https://en.wikipedia.org/wiki/Quantum_limit).
 
 ## [ana_lib](https://github.com/mcmahon-lab/ONN-QAT-SQL/tree/master/ana_lib)
 
